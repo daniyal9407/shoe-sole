@@ -1,0 +1,69 @@
+.mainInputLogIn {
+    border: 1px solid #D7D7D7;
+    color: #959595 !important;
+    font-weight: 500;
+    padding: 17px 15px;
+}
+
+.mainInputLogIn::-webkit-input-placeholder {
+    color: #959595 !important;
+}
+.mainLabel1 {
+    margin-bottom: 0.5rem;
+    padding: 0 10px 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--blackColor);
+    background: #fff;
+}
+
+/* toggle button css */
+.toggle-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-checkbox {
+    display: none; /* Hide the default checkbox */
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #AF040C;
+    border-radius: 25px;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .toggle-slider {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.3s;
+    transform: translateX(3px);
+  }
+  
+  .toggle-checkbox:checked + .toggle-label {
+    background-color: #4caf50;
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .toggle-slider {
+    transform: translateX(20px);
+  }
+  
+  .toggle-text {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 3px;
+  }
+  

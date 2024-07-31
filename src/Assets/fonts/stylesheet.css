@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-Regular.woff2') format('woff2'),
+        url('AdventPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-Thin.woff2') format('woff2'),
+        url('AdventPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-Bold.woff2') format('woff2'),
+        url('AdventPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-SemiBold.woff2') format('woff2'),
+        url('AdventPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-Medium.woff2') format('woff2'),
+        url('AdventPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-ExtraLight.woff2') format('woff2'),
+        url('AdventPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro';
+    src: url('AdventPro-Light.woff2') format('woff2'),
+        url('AdventPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Extra';
+    src: url('Aventa-ExtraLightItalic.woff2') format('woff2'),
+        url('Aventa-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Italic Variable';
+    src: url('AventaItalicVariable.woff2') format('woff2'),
+        url('AventaItalicVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Italic.woff2') format('woff2'),
+        url('Aventa-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-LightItalic.woff2') format('woff2'),
+        url('Aventa-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Medium.woff2') format('woff2'),
+        url('Aventa-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Light.woff2') format('woff2'),
+        url('Aventa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Regular.woff2') format('woff2'),
+        url('Aventa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-MediumItalic.woff2') format('woff2'),
+        url('Aventa-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Semi';
+    src: url('Aventa-SemiBoldItalic.woff2') format('woff2'),
+        url('Aventa-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Semi';
+    src: url('Aventa-SemiBold.woff2') format('woff2'),
+        url('Aventa-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Variable';
+    src: url('AventaVariable.woff2') format('woff2'),
+        url('AventaVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-ThinItalic.woff2') format('woff2'),
+        url('Aventa-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Black.woff2') format('woff2'),
+        url('Aventa-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Thin.woff2') format('woff2'),
+        url('Aventa-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-Bold.woff2') format('woff2'),
+        url('Aventa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Extra';
+    src: url('Aventa-ExtraBold.woff2') format('woff2'),
+        url('Aventa-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-BlackItalic.woff2') format('woff2'),
+        url('Aventa-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('Aventa-BoldItalic.woff2') format('woff2'),
+        url('Aventa-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Extra';
+    src: url('Aventa-ExtraLight.woff2') format('woff2'),
+        url('Aventa-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa Extra';
+    src: url('Aventa-ExtraBoldItalic.woff2') format('woff2'),
+        url('Aventa-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

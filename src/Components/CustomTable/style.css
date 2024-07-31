@@ -1,0 +1,98 @@
+.customTable {
+    overflow-x: auto;
+}
+
+.customTable table {
+    border-spacing: 0px 11px;
+    font-size: 14px;
+    padding: 0px 0.5rem;
+    width: 100%;
+    border-collapse: separate;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+.customTable table thead tr {
+    background: #FFD2D4;
+}
+
+.customTable table thead tr,
+.customTable table tbody tr:nth-child(even) {
+    /* background: #F5F5F5; */
+}
+
+.customTable table th,
+.customTable table td {
+    padding: 0.8rem 1rem;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.customTable table th {
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+.customTable table tr th:first-child {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.customTable table tr th:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.customTable table tbody tr {
+    box-shadow: 0px 0px 0px 1px rgb(147 147 147 / 15%);
+    border-radius: 50px;
+    font-weight: 600;
+    /* filter: drop-shadow(0px 4px 30px rgba(5, 1, 62, 0.10)); */
+}
+
+
+.customTable .thumbnail {
+    width: 25px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 99px;
+    margin-right: 0.5rem;
+}
+
+
+
+.tableDropdownMenu {
+    padding: 0;
+    border-radius: 100px;
+    min-width: auto;
+    text-align: left;
+    overflow: hidden;
+    border: 1px solid #C0C3C9;
+}
+
+.tableAction {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #333;
+    background: #fff0;
+    border: none;
+    outline: none;
+    width: 100%;
+    transition: 0.3s linear;
+}
+
+.tableAction:hover {
+    background: #AF040C;
+    color: #fff;
+}
+
+.tableActionIcon {
+    font-size: 15px;
+    margin-right: 0.5rem;
+    width: 1rem;
+}

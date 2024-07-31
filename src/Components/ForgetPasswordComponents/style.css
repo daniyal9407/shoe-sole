@@ -1,0 +1,10 @@
+.mainInputLogIn {
+    border: 1px solid var(--whiteColor);
+    color: #959595 !important;
+    font-weight: 500;
+    padding: 17px 15px;
+}
+
+.mainInputLogIn::-webkit-input-placeholder {
+    color: #959595 !important;
+}

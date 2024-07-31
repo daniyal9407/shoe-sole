@@ -1,0 +1,80 @@
+.preparing {
+    background: #F2F2F2;
+    display: block;
+    border: 1px solid #C0C3C9;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: #999999;
+    font-weight: normal;
+}
+.orderDeBox {
+    border: 2px solid rgb(254 49 86 / 27%);
+    background: #FFEBEB;
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+}
+.borderBox {
+    border: 1px solid rgb(254 49 86 / 26%);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.Active{
+    color: #00944B;
+}
+.Inactive{
+    color: #FF0000;
+}
+
+
+
+
+
+
+
+
+.nav-tabs.tabsOrders {
+    margin: 0;
+    border: 0;
+    gap: 1rem;
+}
+.nav-tabs.tabsOrders li {
+    flex: unset !important;
+    width: auto;
+}
+
+.nav-tabs.tabsOrders li button {
+    background: #FFE1A7;
+    font-size: 14px;
+    color: #D68D00;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.nav-tabs.tabsOrders li button.active{
+    background: #F1B84B;
+    color: #fff;
+}
+button {}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+
+
+

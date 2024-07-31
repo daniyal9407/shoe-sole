@@ -1,0 +1,242 @@
+.customHeader {
+    background-color: #FFFFFF;
+    position: fixed !important;
+    width: 100%;
+    z-index: 5;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0px 10px !important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 6%);
+    height: 6rem;
+}
+
+.customCollapse .navbar-nav {
+    align-items: center;
+}
+
+.toggleButton {
+    display: flex !important;
+    align-items: center;
+}
+
+.notiDropdown span.badge {
+    background: #E41C40;
+    height: 20px;
+    width: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 9px;
+    color: #ffff;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    position: absolute;
+    right: 4px;
+    top: -2px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notiDropdown .dropdown-toggle::after{
+    display: none ;
+}
+.userDropdown .dropdown-toggle::after{
+    display: none;
+}
+/*----- Logo Start -----*/
+
+.siteLogo {
+    width: 120px;
+    text-align: center;
+    outline: none;
+}
+
+.siteLogo img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/*----- Logo End-----*/
+
+
+/*----- Notifcation Start-----*/
+.bellIcon {
+    font-size: 30px;
+    color: #05013E;
+}
+
+.notiMenu {
+    width: 320px;
+    background: #f5f5f5;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 28%) !important;
+}
+
+.notificationsBody {
+    height: 190px;
+    overflow-y: auto;
+    padding: 20px 0;
+}
+
+.notificationsBody::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.notificationsBody::-webkit-scrollbar-track-piece {
+    background-color: #ccc;
+}
+
+.notificationsBody::-webkit-scrollbar-thumb {
+    background-color: #05013E;
+}
+
+.singleNoti {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    text-decoration: none;
+    background: #f5f5f5;
+    padding: 0.5rem 0.5rem;
+    transition: 0.3s linear;
+    color: unset;
+}
+
+.singleNoti:hover {
+    background: #e8e8e8;
+}
+
+.singleNotiIcon {
+    flex-shrink: 0;
+}
+
+.notiIcon {
+    font-size: 18px;
+    color: var(--whiteColor);
+    /* transform: rotate(25deg); */
+    background-color: #05013E;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.singleNotiContent {
+    flex-grow: 0;
+}
+.notiHeading {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+.notiText {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 0rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.notiDateTime {
+    font-size: 13px;
+    margin: 0;
+    color: var(--grayColor);
+}
+
+.notiFooter {
+    font-size: 15px;
+    font-weight: 600;
+    background: #f5f5f5;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.notiFooter a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #05013E;
+}
+
+
+/*----- Notifcation End-----*/
+
+
+.userImage img {
+    width: 40px;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.userMenu {
+    background: #f5f5f5 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 28%) !important;
+    overflow: hidden;
+}
+
+.userMenuItem {
+    font-size: 15px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    background: #f5f5f5;
+    padding: 0.5rem 0.5rem;
+    transition: 0.3s linear;
+    border-bottom: 1px solid #ccc;
+}
+
+.userMenuItem:hover {
+    color: #AF040C;
+}
+.bg-l-red{
+    background: #FFE9E9 !important;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .customCollapse {
+        background: #fff;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 2px 3px rgb(0 0 0 / 10%);
+    }
+
+    .customCollapse .navbar-nav {
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .customCollapse .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+
+}
+
+@media screen and (max-width: 575.5px) {
+    .notiDropdown .dropdown-menu {
+        right: unset !important;
+        left: 50% !important;
+        transform: translate(-47%) !important;
+    }
+}

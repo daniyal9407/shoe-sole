@@ -1,0 +1,88 @@
+
+.tableFilters {
+    margin: 1rem 0;
+    font-size: 15px;
+}
+
+.filterWrapper {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.filterLabel {
+    color: #333;
+    margin-bottom: 0.2rem;
+    white-space: nowrap;
+}
+
+.filterInput {
+    display: block;
+    /* background: #F1EEEE; */
+    border: none;
+    /* padding: 8px 12px; */
+    border: 1px solid #959595;
+    font-size: 14px;
+    color: #141414;
+    resize: none;
+    outline: none;
+    margin-bottom: 0.2rem;
+}
+
+.searchWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.searchButton {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    color: #666;
+    width: 30px;
+    height: 100%;
+}
+.flterSelectW{
+    width: 100% !important;
+}
+
+.searchInput {
+    /* padding-right: 30px; */
+    padding-right: 90px;
+}
+
+.btn_filter {
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    /* border-radius: 50%; */
+    background: transparent;
+    border-color: transparent;
+    color: #05013E !important;
+}
+.btn_filter:hover {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.showPadding{
+    padding: 8px 16px !important;
+}
+.filterDropdown .dropdown-menu{
+   min-width: 300px;
+   margin-right: 20px;
+   z-index: 4;
+}
+.filterDropdown .dropdown-toggle::after{
+    display: none;
+}
+
+
+@media screen and (max-width: 575.5px) {
+    .filterDropdown .dropdown-menu {
+        right: -30px !important;
+    }
+    .filterImg{
+        width: 25px;
+    }
+}

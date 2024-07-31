@@ -1,0 +1,268 @@
+/*----- General Css Start -----*/
+/* @import url('../fonts/stylesheet.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --seconderyColor: #FE3156;
+    --primaryColor: #2196F3;
+    --grayColor: #666666;
+    --redColor : #ff0000;
+    --greenColor: #42C900;
+    --darkGreen: #2C8109;
+    --yellowColor: #E5BB45;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --lightPrimaryColor: #80bdff;
+    --lightWhiteColor: #f0f0f0;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Raleway", sans-serif;
+}
+.whiteColor{
+    color: var(--whiteColor) !important;
+}
+.primaryColor {
+    color: var(--primaryColor) !important;
+}
+.seconderyColor {
+    color: var(--seconderyColor) !important;
+}
+.darkGreen{
+    color: var(--darkGreen) !important;
+}
+.grayColor {
+    color: var(--grayColor) !important;
+}
+.cap {
+    text-transform: capitalize;
+  }
+.blackColor{
+    color: var(--blackColor);
+}
+.greenColor {
+    color: var(--greenColor) !important;
+}
+.greenBG {
+    background-color: var(--greenColor) !important;
+}
+
+.redColor {
+    color: var(--redColor) !important;
+}
+.redBG {
+    background-color: var(--redColor) !important;
+}
+
+
+.yellowColor {
+    color: var(--yellowColor) !important;
+}
+
+
+.primaryBg {
+    background: var(--primaryColor) !important;
+}
+
+.grayBg {
+    background: var(--grayColor) !important;
+}
+
+.greenBg {
+    background: var(--greenColor) !important;
+}
+
+.redBg {
+    background: var(--redColor) !important;
+}
+
+.yellowBg {
+    background: var(--yellowColor) !important;
+}
+
+.notButton {
+    border: none;
+    background: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.classicToggle::after {
+    display: none;
+}
+.customPadding{
+    padding: 100px;
+}
+/*----- General Css End -----*/
+
+
+
+
+/*----- Modal Css Start -----*/
+
+.closeButton {
+    font-size: 16px;
+    color: var(--whiteColor);
+    background: #EA2227;
+    width: 30px;
+    height: 30px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 0.5rem;
+    margin-left: auto;
+}
+
+.modalImage {
+    /* width: 120px; */
+    margin-bottom: 1rem;
+}
+
+.modalContent {
+    margin: 1rem 0;
+}
+
+.modalHeading {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: var(--blackColor);
+}
+/* .modalpara{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #333333;    
+} */
+/*----- Modal Css End -----*/
+
+
+.dashCard {
+    background: var(--whiteColor);
+    border-radius: 0.5rem;
+    padding: 2rem 2rem;
+}
+
+.mainTitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.profileImage img {
+    width: 120px;
+    aspect-ratio: 2/2;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 99px;
+    outline-offset: 4px;
+}
+
+.statusBadge {
+    font-size: 15px;
+    color: var(--whiteColor);
+    padding: 0.4rem 0.8rem;
+    position: relative;
+    left: 11px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.statusBadgeActive {
+    background: #CAFFC8;
+    color: #00FF4C;
+}
+
+.statusBadgeInactive {
+    background: #ff00003d;
+    color: var(--redColor);
+}
+
+.secondaryLabel {
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: unset;
+    color: var(--blackColor);
+}
+
+.secondaryText {
+    margin-bottom: 0.2rem;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: unset;
+    color: var(--blackColor);
+}
+.secondaryLabelAD {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+    color: #A2A2A2;
+}
+
+.secondaryTextAD {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+
+
+.primaryBtn{
+    background: #AF040C;
+    color: #fff !important;
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    border: 1px solid #AF040C;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+
+.primaryBtn:disabled {
+    background: #AF040C;
+    color: var(--lightWhiteColor); /* Define a lighter version of your white color if needed */
+    border: 1px solid #AF040C;
+}
+.secondaryBtn{
+    background: #FFE9E9;
+    color: #AF040C !important;
+    font-size: 16px;
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 600;
+    border: 1px solid #AF040C;
+}
+.btngrayBG{
+    background: var(--grayColor);
+    color: var(--whiteColor) !important;
+    font-size: 16px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: 1px solid var(--whiteColor);
+}
+.fw-medium{
+    font-weight: 500 !important;
+}
+
+.fs-12{
+    font-size: 12px;
+}

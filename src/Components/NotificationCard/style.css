@@ -1,0 +1,70 @@
+.notificationWrapper {
+    background: #FFFFFF;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 6px 11px rgb(0 0 0 / 4%);
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+}
+.notificationWrapper.unread{
+    background: #2125521a;
+    border: 1px solid transparent;
+
+}
+.notificationImageIcon {
+    flex-shrink: 0;
+    background: #05013E;
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+.notiBell{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.notificationImageIcon img {
+    max-width: 100%;
+    width: 70px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.notificationHeading {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+}
+.notificationText {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grayColor);
+    padding: 0 0 0 20px;
+}
+
+.dateTime {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.dateTime p{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.05em;
+    color: #000;
+}
+.buttonMark {
+    border: 0;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #77838F;
+}
+.readNoti{
+    background: #05013E;
+}
+.unreadNoti{
+    background: rgb(33 37 82 / 20%);
+}

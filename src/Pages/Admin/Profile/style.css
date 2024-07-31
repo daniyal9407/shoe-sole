@@ -1,0 +1,29 @@
+.profileImage {
+    display: inline-block;
+    position: relative;
+}
+
+.imageUploadButton {
+    font-size: 14px;
+    background: #AF040C;
+    color: #fff;
+    border-radius: 99px;
+    width: 30px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+    cursor: pointer;
+}
+.btnCP{
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: #333333;    
+}
+.pCPass button.eyeButton{
+    color: var(--grayColor);
+}
