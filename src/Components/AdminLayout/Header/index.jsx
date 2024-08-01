@@ -2,13 +2,8 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar, Container, Nav, Dropdown } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faEllipsisV,
-  faSignOut,
-  faBars,
-  faChevronDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faEllipsisV, faSignOut, faBars, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 import "./style.css";
 import { images } from "../../../Assets";
 import CustomModal from "../../CustomModal";
@@ -35,12 +30,6 @@ export const Header = (props) => {
       setNotificationData(response?.detail?.notifications?.data);
     }
   };
-
-  const readAtValues = notificationData?.detail?.notifications?.data.map(
-    (notification) => notification.read_at
-  );
-
-  console.log(readAtValues); // Output: [true, false]
 
   useEffect(() => {
     getNotification();
@@ -69,7 +58,23 @@ export const Header = (props) => {
             className="customCollapse order-3"
           >
             <Nav className="ms-auto">
-              <HeaderNotification notificationData={notificationData} readAt={readAtValues}/>
+              <Dropdown className={`notiDropdown me-2`}>
+                <Dropdown.Toggle variant="transparent" className="notButton">
+                  <FontAwesomeIcon className="bellIcon" icon={faBell} />
+                  <span className="badge">9+</span>
+                </Dropdown.Toggle>
+                <Dropdown.Menu className="notiMenu" align="end">
+                  <div className={`notificationsBody`}>
+                    {notificationData.slice(0, 5).map((notification) => (
+                      <HeaderNotification notification={notification}/>
+                    ))}
+                  </div>
+                  <div className="notiFooter">
+                    <Link to={`/${role}/notifications`}>Click To View</Link>
+                  </div>
+                </Dropdown.Menu>
+              </Dropdown>
+              {/* <HeaderNotification notificationData={notificationData} readAt={readAtValues}/> */}
               <Dropdown className="userDropdown">
                 <Dropdown.Toggle
                   variant="transparent"

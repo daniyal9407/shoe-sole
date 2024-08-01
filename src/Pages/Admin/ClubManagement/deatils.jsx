@@ -177,29 +177,29 @@ const ClubDetails = () => {
           </div>
         </div>
         <div className="row mb-3">
-          <div className="col-xl-6">
+          <div className="col-xxl-6 col-xl-8 col-md-10">
             <div className="row mt-4">
-              <div className="col-xl-3">
+              <div className="col-xxl-3 col-xl-4 col-md-6 mb-2">
                 <h4 className="secondaryLabel text-secondary">Club Name:</h4>
                 <p className="secondaryText fw-bold">{club_name}</p>
               </div>
-              <div className="col-xl-3">
+              <div className="col-xxl-3 col-xl-4 col-md-6 mb-2">
                 <h4 className="secondaryLabel text-secondary">
                   Email Address:
                 </h4>
                 <p className="secondaryText fw-bold">{email}</p>
               </div>
-              <div className="col-xl-3">
+              <div className="col-xxl-3 col-xl-4 col-md-6 mb-2">
                 <h4 className="secondaryLabel text-secondary">Unique ID:</h4>
                 <p className="secondaryText fw-bold">{uId}</p>
               </div>
             </div>
-            <div className="row mt-4">
-              <div className="col-xl-3">
+            <div className="row mt-xl-4">
+              <div className="col-xxl-3 col-xl-4 col-md-6 mb-2">
                 <h4 className="secondaryLabel text-secondary">Password:</h4>
                 <p className="secondaryText fw-bold">{password}</p>
               </div>
-              <div className="col-xl-3">
+              <div className="col-xxl-3 col-xl-4 col-md-6 mb-2">
                 <h4 className="secondaryLabel text-secondary">Name Of Coach</h4>
                 <p className="secondaryText fw-bold">{coach_name}</p>
               </div>

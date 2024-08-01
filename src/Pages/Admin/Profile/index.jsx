@@ -37,7 +37,7 @@ const Profile = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-12">
+                  {/* <div className="col-md-12">
                     <CustomButton
                       type="button"
                       variant="primaryBtn"
@@ -50,13 +50,35 @@ const Profile = () => {
                     <CustomButton
                       type="button"
                       variant="secondaryBtn"
-                      className="primaryColor ms-3 mb-2"
+                      className="primaryColor mb-2 ms-3"
                       text="Change Passoword"
                       onClick={() => {
                         navigate("/admin/change-password");
                       }}
                     />
-                  </div>
+                  </div> */}
+                </div>
+                <div className="row">
+                <div className="col-12 d-flex flex-wrap gap-md-3 gap-2">
+                    <CustomButton
+                      type="button"
+                      variant="primaryBtn"
+                      className="px-5 mb-2"
+                      text="Edit Profile"
+                      onClick={() => {
+                        navigate("/admin/edit-profile");
+                      }}
+                    />
+                    <CustomButton
+                      type="button"
+                      variant="secondaryBtn"
+                      className="primaryColor mb-2"
+                      text="Change Passoword"
+                      onClick={() => {
+                        navigate("/admin/change-password");
+                      }}
+                    />
+                  </div> 
                 </div>
               </div>
             ) : (

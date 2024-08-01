@@ -48,8 +48,9 @@
 }
 
 .searchInput {
-    /* padding-right: 30px; */
-    padding-right: 90px;
+    padding-right: 30px;
+    min-width: 250px;
+    width: 100%;
 }
 
 .btn_filter {
@@ -84,5 +85,8 @@
     }
     .filterImg{
         width: 25px;
+    }
+    .searchInput {
+        min-width: 185px;
     }
 }

@@ -11,26 +11,20 @@ import { sorting } from "../../Config/TableStatus";
 import { images } from "../../Assets";
 
 const CustomFilters = (props) => {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+  
+  
   const [searchValue, setSearchValue] = useState("");
-
+  
   const [selectedEntries, setSelectedEntries] = useState("");
-  const [canvasShow, setCanvasShow] = useState(false);
-  const handleCanvasShow = () => setCanvasShow(true);
-
+  
+  
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const handleToggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
   };
-
-  const handleCanvasClose = () => {
-    setCanvasShow(false);
-    handleClose();
-  };
-
+  
+  const handleShow = () => setDropdownOpen(true);
+  
   // Debounce function to delay setting search value
   const debounce = (func, delay) => {
     let timeoutId;
@@ -145,7 +139,7 @@ const CustomFilters = (props) => {
                 onToggle={handleToggleDropdown}
                 className="bg-transparent filterDropdown"
               >
-                <Dropdown.Toggle closeButton className="justify-content-end bg-transparent border-0">
+                <Dropdown.Toggle closeButton className="justify-content-end bg-transparent border-0 p-0">
                   <Button
                     onClick={handleShow}
                     className="bg-transparent border-0 p-0"

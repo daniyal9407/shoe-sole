@@ -266,3 +266,9 @@ h1, h2, h3, h4, h5, h6, p{
 .fs-12{
     font-size: 12px;
 }
+
+@media screen and (max-width : 575.5px) {
+    .primaryBtn, .secondaryBtn{
+        padding: 10px 25px;
+    }
+}

@@ -17,9 +17,10 @@ const StepOne = ({ apiEndpoint, navigateTo }) => {
     const { isSubmitting, startSubmitting, stopSubmitting } = useFormStatus(); // use your custom hook
     usePageTitle("Forgot Password");
     const handleSubmit = async (values) => {
+        navigate('/admin/forget-password2') // remove when use api
         startSubmitting();
         setEmail(values);
-        let response = await post(apiEndpoint, values);
+        // let response = await post(apiEndpoint, values); uncomment when use backend api
         if (response.status) {
             showToast(response.message, "success");
             setTimeout(() => {

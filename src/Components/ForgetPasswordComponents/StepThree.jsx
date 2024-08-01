@@ -19,16 +19,16 @@ const StepThree = ({ apiEndpoint, navigateTo }) => {
     const [load, setLoad] = useState(false);
     const { isSubmitting, startSubmitting, stopSubmitting } = useFormStatus(); // use your custom hook
 
-
     usePageTitle("Forgot Password");
 
     const handleSubmit = async (values) => {
+        setShowModal(true); // remove when use backend api
         startSubmitting();
         let email = getEmail();
         let code = getCode();
         values.code = code.code;
         values.email = email.email;
-        let response = await post(apiEndpoint, values);
+        // let response = await post(apiEndpoint, values); uncomment when use backend api
         if (response.status) {
             setLoad(false);
             showToast(response.message, "success");
@@ -42,7 +42,8 @@ const StepThree = ({ apiEndpoint, navigateTo }) => {
     };
 
     const PageChange = () => {
-        navigate(navigateTo);
+        // navigate(navigateTo); uncomment when use backend api
+        navigate("/admin/login"); // remove when use backend api
     };
 
     return (

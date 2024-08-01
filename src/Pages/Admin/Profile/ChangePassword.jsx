@@ -30,7 +30,7 @@ const ChangePassword = () => {
         </h2>
         <div className="dashCard mb-4">
           <div className="row mb-3">
-            <div className="col-xl-4 col-lg-4">
+            <div className="col-xxl-4 col-xl-6 col-lg-8 col-md-10">
               <ChangePasswordForm onSubmit={handleSubmit} />
             </div>
           </div>

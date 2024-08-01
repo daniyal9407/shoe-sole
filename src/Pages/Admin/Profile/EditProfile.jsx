@@ -55,10 +55,10 @@ const EditProfile = () => {
   return (
     <>
       <DashboardLayout pageTitle="Edit Profile">
-      <h2 className="mainTitle my-4">
-                <BackButton />
-                Edit Profile
-              </h2>
+        <h2 className="mainTitle my-4">
+          <BackButton />
+          Edit Profile
+        </h2>
         <div className="dashCard mb-4">
           <div className="row mb-3">
             {profileData ? (
@@ -107,7 +107,7 @@ const EditProfile = () => {
                             </div>
                           </div>
                           <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-xxl-8 col-xl-12">
                               <div className="row mb-3">
                                 <div className="col-md-8">
                                   <CustomInput
@@ -128,7 +128,7 @@ const EditProfile = () => {
 
                               <div className="row mb-3">
                                 <div className="col-md-8">
-                                <CustomInput
+                                  <CustomInput
                                     label="Email Address"
                                     labelclass="mainLabel"
                                     readOnly

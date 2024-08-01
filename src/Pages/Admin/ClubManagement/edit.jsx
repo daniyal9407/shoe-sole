@@ -21,7 +21,7 @@ const EditClub = () => {
 
  
   useEffect(() => {
-    const response = clubManagementData?.detail?.data?.find((itme) => itme.id == 1);
+    const response = clubManagementData?.detail?.data?.find((itme) => itme.id == id);
     setClubData(response);
   }, []);
 
