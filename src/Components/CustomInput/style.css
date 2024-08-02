@@ -1,5 +1,6 @@
 .inputWrapper {
     margin-bottom: 1rem;
+    position: relative;
 }
 
 .mainLabel {
@@ -74,6 +75,16 @@
 
 .passInput {
     padding-right: 2rem;
+}
+.right-icon {
+    position: absolute;
+    top: 55%;
+    /* transform: translateY(-50%); */
+    right: 20px;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: #707C8B;
 }
 
 /* .eyeButton {

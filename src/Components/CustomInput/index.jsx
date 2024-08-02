@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEyeSlash, faEye } from "@fortawesome/free-solid-svg-icons";
 
 const CustomInput = (props) => {
+
   const [typePass, setTypePass] = useState(true);
 
   const togglePassType = () => {
@@ -55,6 +56,11 @@ const CustomInput = (props) => {
         )}
         {props?.error && (
           <div className="error-message red-text">{props?.error}</div>
+        )}
+        {props?.rightIcon && (
+          <div className={`right-icon ${props?.rightIconClass}`}>
+            <FontAwesomeIcon icon={props?.rightIcon} />
+          </div>
         )}
       </div>
     </>

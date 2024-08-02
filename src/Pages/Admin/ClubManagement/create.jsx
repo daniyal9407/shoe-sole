@@ -8,7 +8,6 @@ import { clubValidationSchema } from "../../../Config/Validations";
 import CustomModal from "../../../Components/CustomModal";
 import { useFormStatus } from "../../../Hooks/useFormStatus";
 
-
 const CreateClub = () => {
 
     const [show, setShow] = useState(false);
