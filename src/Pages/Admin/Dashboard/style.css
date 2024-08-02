@@ -2,53 +2,79 @@
     margin-bottom: 1rem;
     border-right: 2px solid #fff0;
 }
-.chartjs-tooltip{
+
+.chartjs-tooltip {
     position: absolute;
     background: white;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0, 0, 0, .16);
     padding: 10px;
-  }
+}
 
 .stats:not(:last-child) {
     border-color: #DADADA;
 }
-.dashboardSelect{
+
+.dashboardSelect {
     border-radius: 10px;
     border-color: #E9E9E9;
     background: #F3F3F3;
     padding: 10px 20px;
     color: #000;
 }
+
 .graph-wrapper {
     width: calc(100% - 40px);
     margin-left: auto;
-  }
+}
+
 .x-axis {
     position: absolute;
     transform: rotate(270deg) translateY(-50%);
-    top: 20%;
+    top: 30%;
     margin: auto;
     font-weight: 400;
     width: 190px;
     left: -115px;
     color: #746969;
-  }
-  .y-axes{
+}
+
+.y-axes {
     color: #000;
-  }
+}
+
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-    .stats, .stats:not(:last-child) {
+
+    .stats,
+    .stats:not(:last-child) {
         border-color: #DADADA;
     }
 
     .stats:nth-child(odd) {
         border-color: #DADADA;
     }
+    .x-axis {
+        top: 15%;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    .stats, .stats:not(:last-child), .stats:nth-child(odd) {
+
+    .stats,
+    .stats:not(:last-child),
+    .stats:nth-child(odd) {
         border-color: #DADADA;
+    }
+    .x-axis {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width : 575.5px) {
+    .x-axis {
+        top: -45px;
+        font-weight: 600 !important;
+        left: -135px;
+        font-size: 16px;
     }
 }
